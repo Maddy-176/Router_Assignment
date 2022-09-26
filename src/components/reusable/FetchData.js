@@ -4,7 +4,7 @@ const baseUrl= "https://jsonplaceholder.typicode.com/"
 
 function FetchData(param) {
 
-  const [data, setData]= useState([]);
+  const [data, setData]= useState([{}]);
 
   useEffect(()=>{
     (async ()=>{
